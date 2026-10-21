@@ -1,0 +1,18 @@
+# Secretos de despliegue — nunca al repo
+.env
+.env.*
+!.env.example
+
+# Dependencias de Node (api/ y worker/)
+node_modules/
+
+# Copias de base de datos
+*.dump
+*.sql.gz
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
